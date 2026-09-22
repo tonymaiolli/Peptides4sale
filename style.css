@@ -8,4 +8,86 @@ h1{font-size:clamp(3.4rem,5.8vw,6.2rem)}.molecule{font-size:clamp(1.8rem,3vw,3.2
 
 .hero-photo{background-image:url('injectable-vials.png')}
 
+
+/* FORM's second direction: open clinical editorial, with its own ink/teal identity. */
+:root{color:#17252b;background:#f7f9f8;--blue:#0d7378;--line:#dce6e3}
+body{background:#f7f9f8}
+.demo-bar{background:#17343b;color:#f5fbf8;min-height:34px;padding:7px 4%;font-size:.72rem;letter-spacing:.01em;align-items:center}
+.demo-mark{font-weight:800;letter-spacing:.12em;color:#a7e4d4}
+.demo-bar span:not(.demo-mark){font-weight:400}
+header{height:86px;background:#fff;border-color:#e5ece9;padding:0 max(4%,calc((100vw - 1440px)/2));gap:24px}
+.logo{font-size:2.1rem;color:#17252b;letter-spacing:-.09em}
+nav{gap:36px;margin-left:auto;margin-right:auto}
+nav a{font-weight:600;color:#34454a;font-size:.89rem}
+nav a:hover{color:#0d7378}
+.bag-button{white-space:nowrap;border:1px solid #bed4ce;border-radius:40px;padding:10px 15px;font-size:.85rem;font-weight:700;background:#eef7f4}
+.bag-button span{background:#0d7378}
+.hero{background:#fff;grid-template-columns:minmax(0,1fr) minmax(0,1fr);min-height:590px;padding:46px max(4%,calc((100vw - 1440px)/2)) 58px;gap:5%;align-items:center}
+.hero-copy{color:#16272c;background:none;padding:0;align-self:center}
+.hero .eyebrow{color:#0d7378;margin-bottom:22px}
+.hero h1{font-size:clamp(3.6rem,5.3vw,5.8rem);font-weight:700;letter-spacing:-.065em;line-height:1.07;margin-bottom:26px}
+.hero h1 em{font-family:'Manrope',Arial,sans-serif;font-style:normal;font-weight:700;color:#0d7378}
+.hero .intro{max-width:530px;color:#4e6468;font-size:1.05rem;line-height:1.7}
+.hero .button.light{margin-top:15px;background:#17252b;color:#fff;border-radius:40px;padding:15px 22px;min-width:235px}
+.hero .button.light:hover{background:#0d7378}
+.hero-note{font-size:.8rem;color:#697d7e;margin-top:30px}
+.hero-photo{height:490px;border-radius:20px;background-color:#dcebee;background-position:center;overflow:hidden}
+.photo-caption{bottom:18px;left:20px;right:20px;font-size:.6rem;letter-spacing:.13em}
+.principles{background:#eaf3f0;color:#274247;justify-content:center;gap:clamp(30px,8vw,150px);padding:20px 4%;font-size:.82rem;border-color:#d8e7e1}
+.principles b{color:#0d7378;font-size:.72rem;margin-right:12px}
+.section{padding:84px max(4%,calc((100vw - 1440px)/2))}
+.category-section{background:#f7f9f8;padding-bottom:78px}
+.category-heading{margin-bottom:31px}
+.category-heading .eyebrow,.catalog-section .eyebrow,.guide .eyebrow{color:#0d7378}
+.category-heading h2{font-weight:700;font-size:clamp(2.3rem,3.4vw,3.8rem)}
+.category-heading p:not(.eyebrow){color:#5d7275;font-size:.96rem;margin-bottom:0}
+.category-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.category-tile{min-height:290px;border-radius:18px;text-decoration:none;padding:25px 26px;display:flex;flex-direction:column;align-items:flex-start;justify-content:space-between;transition:transform .18s,box-shadow .18s;overflow:hidden}
+.category-tile:hover{transform:translateY(-4px);box-shadow:0 14px 28px #152f3020}
+.category-weight{background:linear-gradient(140deg,#ddf2eb,#baded4);color:#173c3b}
+.category-strength{background:linear-gradient(145deg,#1d3b4c,#14262f);color:#f5f8f7}
+.category-recovery{background:linear-gradient(145deg,#e8edf3,#cfdde6);color:#253f54}
+.category-index{font-size:.7rem;letter-spacing:.15em;font-weight:700}
+.category-tile strong{font-family:'Manrope',Arial,sans-serif;font-size:clamp(2.1rem,3vw,3.1rem);line-height:1.12;letter-spacing:-.05em}
+.category-tile>span:last-child{font-size:.85rem;line-height:1.4;display:flex;justify-content:space-between;align-items:center;width:100%;gap:20px;border-top:1px solid currentColor;padding-top:14px}
+.category-tile i{font-size:1.1rem;font-style:normal}
+.catalog-section{background:#fff;border-top:1px solid #e4edeb}
+.section-title h2{font-weight:700}
+.section-title p:not(.eyebrow){color:#65777b}
+.filters{padding-bottom:30px;gap:9px}
+.filters button{border-color:#c9d9d5;border-radius:40px;padding:11px 17px;color:#334a4d;background:#fff}
+.filters button.active{background:#17343b;border-color:#17343b;color:#fff}
+.products{gap:20px}
+.product{background:#fff;border:1px solid #e2eae7;border-radius:16px;overflow:hidden;padding-bottom:20px;box-shadow:0 6px 20px #19343108}
+.specimen{height:190px;padding:20px;border:0;border-bottom:1px solid #e6edea;border-radius:0}
+.tone-0,.tone-1,.tone-2,.tone-3,.tone-4,.tone-5,.tone-6,.tone-7,.tone-8,.tone-9{background:#e9f0ee;color:#274c50}
+.tone-1,.tone-4,.tone-7{background:#e6edf2;color:#365568}
+.tone-2,.tone-5,.tone-8{background:#eaf1e5;color:#536c52}
+.molecule{font-weight:700;letter-spacing:-.06em;font-size:clamp(2.1rem,2.6vw,3rem)}
+.product-line,.product>p,.product-actions,.product>.approval-status{margin-left:19px;margin-right:19px}
+.product-line{margin-top:19px}
+.product h3{font-weight:700;color:#1f3035;font-size:1.02rem}
+.price{font-weight:700;color:#1d5554;text-align:right}
+.price small{font-weight:400;color:#718383}
+.product>.approval-status{margin-top:12px;background:#eef6f3;border:0;border-radius:5px;color:#2a615f;font-weight:600}
+.product>p{font-size:.88rem;line-height:1.6;color:#65777b;margin-top:11px;min-height:46px}
+.text-button{color:#0d7378;border-color:#0d7378;font-weight:700}
+.add{background:#17343b;border-color:#17343b;color:#fff;width:38px;height:38px}
+.add:hover{background:#0d7378}
+.guide{background:#e9f1ef;gap:8%}
+.guide-intro h2{font-weight:700}
+.guide-intro p:not(.eyebrow){color:#50686b}
+.guide-content details{border-color:#b7cbc7}
+.guide-content a{color:#096f72}
+footer{background:#17343b;color:#fff}
+footer span,footer .small{color:#b8cbc8}
+dialog{border-radius:18px;background:#fff}
+dialog .specimen{border-radius:10px}
+dialog .approval-status{background:#eaf3f0;border:0;border-radius:4px;padding:6px 9px;color:#23595a;font-weight:700}
+dialog .notice{background:#eef6f3;border-radius:7px}
+dialog .button{background:#17343b;border-radius:40px}
+#toast{background:#17343b}
+@media(max-width:950px){header nav{gap:17px}.hero{gap:4%;min-height:500px}.hero-photo{height:400px}.hero h1{font-size:clamp(3rem,5vw,4.4rem)}.category-tile{min-height:250px;padding:21px}.category-tile strong{font-size:2.1rem}.products{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:760px){header{height:72px;padding:0 5%;gap:12px}.logo{font-size:1.8rem}header .logo span{display:none}header nav{margin:0 auto;gap:14px}header nav a{font-size:.73rem}header nav a:first-child{display:none}.bag-button{padding:8px 10px;font-size:.72rem}.bag-button span{margin-left:5px;width:22px;height:22px}.hero{display:flex;flex-direction:column;padding:45px 5% 35px;gap:30px;align-items:stretch}.hero-copy{align-self:auto}.hero h1{font-size:clamp(2.9rem,9vw,4.6rem)}.hero .intro{font-size:1rem}.hero-photo{height:300px}.principles{justify-content:space-between;gap:12px;padding:18px 5%;font-size:.7rem}.principles b{display:block;margin-bottom:5px}.section{padding:59px 5%}.category-grid{grid-template-columns:1fr;gap:13px}.category-tile{min-height:220px}.category-tile strong{font-size:2.7rem}.category-heading h2{font-size:2.4rem}.guide{gap:25px}.guide-intro h2{font-size:2.4rem}.section-title p:not(.eyebrow){margin-top:16px}.filters span{flex-basis:100%}}
+@media(max-width:560px){.products{grid-template-columns:1fr}.product>p{min-height:0}.specimen{height:170px}.molecule{font-size:2.8rem}.demo-bar{font-size:.67rem;gap:10px;justify-content:space-between}.demo-bar span:not(.demo-mark){max-width:235px;text-align:right}.category-tile{min-height:190px}.category-tile strong{font-size:2.4rem}.photo-caption{font-size:.53rem}.hero-photo{height:260px}footer{display:block}footer p{margin-top:20px}}
 header .logo{white-space:nowrap;flex-shrink:0}.bag-button{white-space:nowrap}@media(max-width:430px){header .logo{font-size:1.65rem}header .logo span{display:none}header nav{gap:12px}header .bag-button{padding:0;font-size:.8rem}header .bag-button span{margin-left:4px}header{gap:12px}}
